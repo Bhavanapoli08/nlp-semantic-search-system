@@ -170,12 +170,6 @@ User (Browser)
 
 ---
 
-### 13.5 — Semantic Search Page
-![Uploading image.png…]()
-
-
-
-*Search bar with natural language query input. Left panel includes filters for date range, paper type, and confidence threshold.*
 
 
 ## Installation & Setup
