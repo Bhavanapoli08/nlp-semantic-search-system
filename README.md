@@ -108,6 +108,7 @@ User (Browser)
       ▼
 [Google Cloud Platform — Docker + NGINX]
 ```
+<img width="391" height="530" alt="image" src="https://github.com/user-attachments/assets/050afce8-cbc4-484d-8305-dabe4915f328" />
 
 ---
 
@@ -135,7 +136,8 @@ User (Browser)
 
 ### 13.1 — Login Page
 
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/f661f46c-19bb-4792-8a47-bfb13f2679d8" />
+<img width="684" height="391" alt="image" src="https://github.com/user-attachments/assets/84325418-f9dd-4ac1-a833-4557d776f207" />
+
 
 
 *The login form with email and password fields. Users enter credentials here to receive a JWT token for authenticated access.*
@@ -143,7 +145,8 @@ User (Browser)
 ---
 
 ### 13.2 — Signup / Registration Page
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/1fd3e556-48ef-411c-a9f3-e1c0a59767b7" />
+<img width="684" height="391" alt="image" src="https://github.com/user-attachments/assets/50d09ad7-49b6-4cda-b012-56e69dff8a3e" />
+
 
 
 *New user registration form collecting name, email, and password with client-side validation.*
@@ -151,7 +154,7 @@ User (Browser)
 ---
 
 ### 13.3 — User Dashboard
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/ad985d11-c93c-42c6-ae46-b85f0f86e1f1" />
+<img width="679" height="398" alt="image" src="https://github.com/user-attachments/assets/c2cf865e-d407-4596-abbb-d6c2d630a8cd" />
 
 
 *Main dashboard showing total uploaded papers, recent searches, saved papers count, and quick-access buttons for Upload and Search.*
@@ -159,7 +162,8 @@ User (Browser)
 ---
 
 ### 13.4 — PDF Upload Page
-<img width="1280" height="760" alt="image" src="https://github.com/user-attachments/assets/075926d9-f463-403e-9425-66d60ea47e89" />
+<img width="679" height="398" alt="image" src="https://github.com/user-attachments/assets/41580d52-dd09-4141-bb0d-a8ec0e2c5b09" />
+
 
 
 *Drag-and-drop upload interface with progress bar and live processing status: Extracting Text → Generating Embeddings → Indexing.*
@@ -167,49 +171,12 @@ User (Browser)
 ---
 
 ### 13.5 — Semantic Search Page
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/c402c675-462d-4df6-812f-dbf258b88a65" />
+![Uploading image.png…]()
+
 
 
 *Search bar with natural language query input. Left panel includes filters for date range, paper type, and confidence threshold.*
 
----
-
-### 13.6 — Search Results Page
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/d79398d9-ce16-4574-bd85-a0022a7b2328" />
-
-
-*Ranked results list showing paper title, matching section, confidence score badge, and a relevant text snippet per result.*
-
----
-
-### 13.7 — AI Question-Answering (RAG) Page
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/51f1f11c-bda8-4249-a449-dcc1e725bdb2" />
-
-
-*Chat-style interface showing user question, AI-generated answer, confidence score, and highlighted source section from the paper.*
-
----
-
-### 13.8 — Saved Papers Page
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/a6bf1d11-5d65-401d-96cb-c1bb7de3cc11" />
-
-
-*Grid view of bookmarked papers with title, author, and quick-action buttons: Open, Ask, and Remove.*
-
----
-
-### 13.9 — PDF Viewer with Annotations
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/9dd52c2f-a196-4afe-966b-522a952dc870" />
-
-
-*In-browser PDF viewer with highlighted sections corresponding to retrieved RAG answer chunks.*
-
----
-
-### 13.10 — Google Cloud Deployment Terminal
-
-
----
 
 ## Installation & Setup
 
