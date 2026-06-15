@@ -1,0 +1,52 @@
+name: Dockerfile build check and update readme file
+
+
+on:
+  pull_request:
+    branches:
+      - update-readme
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Docker Image
+      run: |
+        docker build -t research-explorer-test .
+    
+    - name: Run Streamlit App
+      run: | 
+        docker run -d -p 8502:8502 research-explorer-test
+    - name: Wait for Streamlit App to be ready
+      run: |
+        sleep 60
+    - name: Test Streamlit App
+      run: |
+        curl -f http://localhost:8502/ || exit 1      
+    - name: Update README
+      run: |
+        sed -i '/Streamlit app is running successfully!/d' README.md
+        sed -i '/You can access it at http:\/\/localhost:8502/d' README.md
+        echo "Streamlit app is running successfully!" >> README.md
+        echo "You can access it at http://localhost:8502" >> README.md
+    - name: Commit and push changes
+      run: |
+        git config --local user.email " github-actions[bot]@users.noreply.github.com" 
+        git config --local user.name "github-actions[bot]"
+        git add README.md
+        git commit -m "Update README with Streamlit app status"
+        git push origin update-readme || echo "No changes to commit"
+    - name: Cleanup
+      run: |
+        docker stop $(docker ps -q --filter ancestor=research-explorer-test) || true
+        docker rm $(docker ps -aq --filter ancestor=research-explorer-test) || true
+        docker rmi research-explorer-test || true   
+    - name: Notify completion
+      run: |
+        echo "Docker build and test completed successfully. README updated."    
+  
+      

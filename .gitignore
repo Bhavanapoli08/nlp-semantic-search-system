@@ -1,0 +1,36 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.idx
+cache/
+.env
+
+.venv/
+venv/
+venv311/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+cache/
+.env
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated files
+tmp/
+papers/
+pdfs/
+*.zip
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+

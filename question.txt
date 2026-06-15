@@ -1,0 +1,86 @@
+## ❓ Sample Queries from Pre-Indexed Papers
+
+If you want to make a query on existing documents already stored in the FAISS index, you can use the following questions. These were derived from the introduction sections of three distinct academic papers. You're welcome to experiment and see how the system responds!
+
+### 📄 Enhancing Echocardiogram Video Quality via Latent Space Editing
+
+🔬 **Technical Method Focus**  
+✅ Query: *How does StyleGAN2 improve low-quality echocardiography imaging?*
+
+🧠 **Clinical Problem Focus**  
+✅ Query: *What are the challenges caused by acoustic clutter in transthoracic echocardiograms?*
+
+🎯 **Use Case Focus**  
+✅ Query: *How can deep learning enhance cardiac ultrasound videos for better clinical diagnosis?*
+
+🧪 **Generative Models**  
+✅ Query: *What is the role of GANs in improving B-mode ultrasound image quality?*
+
+🧬 **Training Techniques**  
+✅ Query: *How are synthetic datasets used for training generative models in ultrasound enhancement?*
+
+📈 **Performance Metrics Focus**  
+✅ Query: *What metrics can be used to evaluate the quality of enhanced echocardiography videos?*
+
+📚 **Paper-Wide Summary Style Query**  
+✅ Query: *What method is proposed to enhance echocardiography using StyleGAN2 and self-supervised training?*
+
+---
+
+### 📄 Leveraging Protein Language Model Embeddings for Catalytic Turnover Prediction of Adenylate Kinase Orthologs in a Low-Data Regime
+
+🔬 **Sequence-to-Function Modeling**  
+✅ Query: *How can protein language models be used to predict enzymatic activity from amino acid sequences?*
+
+⚗️ **Application of Machine Learning in Enzyme Engineering**  
+✅ Query: *How does machine learning improve directed evolution for enzyme activity?*
+
+📊 **Benchmarking and Evaluation**  
+✅ Query: *What benchmarking has been done for PLM-based enzymatic activity prediction?*
+
+🧬 **Low-Data Prediction Challenges**  
+✅ Query: *What are the challenges of sequence-to-kcat prediction in low-data regimes?*
+
+🧠 **PLM Embedding Techniques**  
+✅ Query: *How are fixed vs learnable aggregation methods used with protein language models?*
+
+🔧 **Fine-Tuning Techniques**  
+✅ Query: *What is the role of LoRA fine-tuning in enzyme activity prediction?*
+
+🧪 **Diversity in Sequence Datasets**  
+✅ Query: *Why is sequence diversity important for benchmarking protein function prediction?*
+
+💊 **Therapeutic Applications**  
+✅ Query: *How can enzyme activity prediction impact therapeutics like enzyme replacement therapy?*
+
+---
+
+### 📄 Gene Finding Revisited: Improved Robustness Through Structured Decoding from Learned Embeddings
+
+🔍 **Gene Prediction from DNA Sequences**  
+✅ Query: *How can deep learning be used to predict genes directly from DNA sequences?*
+
+🔢 **Splice Sites & Gene Structure**  
+✅ Query: *What are intron splice sites and how do they affect gene annotation?*
+
+🤖 **GeneDecoder Model**  
+✅ Query: *What is the GeneDecoder model for gene prediction and how does it differ from HMMs?*
+
+🧠 **Deep Learning vs. HMMs for Genomics**  
+✅ Query: *Why are Hidden Markov Models insufficient for modern gene finding tasks?*
+
+🌍 **Genomic Diversity & Annotation Gaps**  
+✅ Query: *Why is gene annotation difficult in diverse taxonomies like fungi?*
+
+🧬 **Codon Frame Sensitivity**  
+✅ Query: *Why must codon frames be precisely annotated in gene prediction?*
+
+🧪 **DNA Language Models**  
+✅ Query: *How are transformer-based language models applied to DNA sequences?*
+
+📊 **Genomic Model Benchmarking**  
+✅ Query: *How does GeneDecoder compare to tools like Augustus, Snap, and GlimmerHMM?*
+
+💡 **CRF with Learned Embeddings**  
+✅ Query: *How are Conditional Random Fields combined with learned embeddings for gene prediction?*
+"""
